@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import SurahList from "./SurahList";
-import type { Surah } from "../../types/surah";
+import type { Surah } from "../../types/Surah";
 
 function SurahContainer() {
     const [surahs, setSurahs] = useState<Surah[]>([]);

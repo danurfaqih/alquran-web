@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import type { Surah } from "../../types/surah";
+import type { Surah } from "../../types/Surah";
 import Number from "../Number";
 
 type SurahCardProps = {

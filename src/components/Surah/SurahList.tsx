@@ -1,4 +1,4 @@
-import type { Surah } from "../../types/surah";
+import type { Surah } from "../../types/Surah";
 import SurahCard from "./SurahCard";
 
 type SurahListProps = {
