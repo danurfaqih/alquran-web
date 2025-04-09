@@ -1,6 +1,6 @@
 import Profile from "./Profile";
 import Verse from "./Verse";
-import Avatar from "../assets/Photo.png";
+import Avatar from "../assets/Avatar.png";
 
 function Hero() {
     return (    
@@ -9,7 +9,7 @@ function Hero() {
             <div className="relative z-10 px-5 pt-8 flex flex-col gap-8">
                 <Profile 
                     greeting='Good Morning' 
-                    name='Ukhti👋🏻' 
+                    name=' Akhi | Ukhti 👋🏻' 
                     avatar={Avatar} 
                 />
                 <Verse
